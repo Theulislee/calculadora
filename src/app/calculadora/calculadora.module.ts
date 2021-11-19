@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CalculadoraComponent } from './calculadora/calculadora.component';
+import { CalculadoraComponent } from './components/calculadora.component';
 
 // creation of a calculator module / criação de modulo calculadora
 
