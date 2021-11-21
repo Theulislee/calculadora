@@ -8,7 +8,8 @@ import { CalculadoraComponent } from './components'; //import component name red
   declarations: [
     CalculadoraComponent
   ],
-  exports: [ CalculadoraComponent ], //add export calculadora.component.ts and calculadora.module.ts: 3
+  exports: [
+    CalculadoraComponent ], //add export calculadora.component.ts and calculadora.module.ts: 3
   imports: [
     CommonModule
   ]
