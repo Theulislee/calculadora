@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { CalculadoraModule } from './calculadora';     // add calculadora.module.ts here // to shorten the name of the calculator import module: index.ts
+import { CalculadoraModule } from './calculadora';  // add calculadora.module.ts here // to shorten the name of the calculator import module: index.ts
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { CalculadoraModule } from './calculadora';     // add calculadora.module
   ],
   imports: [
     BrowserModule,
-    CalculadoraModule            //add Calculadora.module.ts
+    CalculadoraModule  //add Calculadora.module.ts
   ],
   providers: [],
   bootstrap: [AppComponent]
