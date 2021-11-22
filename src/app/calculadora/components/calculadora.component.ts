@@ -1,4 +1,7 @@
+import { CalculadoraService } from './../services/calculadora.service';
 import { Component, OnInit } from '@angular/core';
+
+// from:'./../services  - add dependency injection calculadora.component
 
 @Component({
   selector: 'app-calculadora',
@@ -7,7 +10,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CalculadoraComponent implements OnInit {
 
-  constructor() { }
+  // add attribute for the calculadoraService class
+  constructor( private CalculadoraService: CalculadoraService ) { }
 
   ngOnInit(): void {
   }
