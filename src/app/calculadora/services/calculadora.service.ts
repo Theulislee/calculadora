@@ -17,6 +17,9 @@ import { Injectable } from '@angular/core';
 export class CalculadoraService {
  /* Define as constantes utilizadas
      para identificar as operações de cálculo */
+
+     //A constant readonly não pode ser alterado, esse valor só pode ser lido
+     //Irá permanecer assim por toda aplicação!
      static readonly SOMA: string = '+';
      static readonly SUBTRACAO: string = '-';
      static readonly DIVISAO: string = '/';
