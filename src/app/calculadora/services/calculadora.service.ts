@@ -1,3 +1,6 @@
+// Foi add pelo Orientador do curso que foi add código de implementação que seriam o calculo das opreações aritméticas...
+// ...para implementar na calculadora, porém com comentários.
+
 /**
  * Serviço responsável por executar as operações da
  * calculadora.
