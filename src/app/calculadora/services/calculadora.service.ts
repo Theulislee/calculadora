@@ -38,6 +38,9 @@ export class CalculadoraService {
    * @param operacao string Operação a ser executada
    * @return number Resultado da operação
    */
+
+  // Esse método calcular recebe 3 parâmetros: num1 / num2 / operacao, que retorna um valor númerico
+  // Essa operação deve ser uma das 4 operações definida no static readonly
   calcular(num1: number, num2: number, operacao: string): number {
   	let resultado: number; // armazena o resultado da operação
 
