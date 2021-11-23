@@ -58,7 +58,7 @@ export class CalculadoraService {
   	  case CalculadoraService.MULTIPLICACAO:
   	    resultado = num1 * num2;
   		break;
-  	  default:
+  	  default: // utilizar default em caso de operação inválida
   	    resultado = 0;
   	}
 
