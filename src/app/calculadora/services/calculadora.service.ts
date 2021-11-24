@@ -2,6 +2,8 @@
 // ...para implementar na calculadora, porém com comentários.
 
 /**
+ *  "/**" exemplo de documentação especial
+ *
  * Serviço responsável por executar as operações da
  * calculadora.
  *
@@ -16,7 +18,9 @@ import { Injectable } from '@angular/core';
 })
 export class CalculadoraService {
  /* Define as constantes utilizadas
-     para identificar as operações de cálculo */
+     para identificar as operações de cálculo
+      "/*" exemplo de documentação de multiplas linhas
+     */
 
      //A constant readonly não pode ser alterado, esse valor só pode ser lido
      //Irá permanecer assim por toda aplicação!
@@ -43,7 +47,7 @@ export class CalculadoraService {
   // Essa operação deve ser uma das 4 operações definida no static readonly
   // O operadora switch é o principal que recebe a operação de calculo
   calcular(num1: number, num2: number, operacao: string): number {
-  	let resultado: number; // armazena o resultado da operação
+  	let resultado: number; // armazena o resultado da operação "//" exemplo de documentação de uma linha
 
   	switch(operacao) {
   	  case CalculadoraService.SOMA:
