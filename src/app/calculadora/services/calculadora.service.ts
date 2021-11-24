@@ -32,6 +32,8 @@ export class CalculadoraService {
      constructor() { }
 
   /**
+   *  "/**" documentação de métodos: ele explica o que esse método faz.
+   *
    * Método que calcula uma operação matemática dado
    * dois números.
    * Suporta as operações soma, subtração, divisão,
