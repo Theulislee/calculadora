@@ -1,5 +1,7 @@
+import { CalculadoraModule } from './calculadora/calculadora.module'; // add import calculadora module
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -7,6 +9,11 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
+
+      // add imports calculadoraModule
+      imports: [
+        CalculadoraModule
+      ]
     }).compileComponents();
   });
 
