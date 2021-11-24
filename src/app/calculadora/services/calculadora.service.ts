@@ -39,6 +39,8 @@ export class CalculadoraService {
    * Suporta as operações soma, subtração, divisão,
    * e multiplicação.
    *
+   *  // comentário sobre o que faz cada @param
+   *
    * @param num1 number
    * @param num2 number
    * @param operacao string Operação a ser executada
