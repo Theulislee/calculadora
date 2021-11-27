@@ -27,6 +27,7 @@ export class CalculadoraComponent implements OnInit {
    *
    * @return void
    */
+  // esse método ele é chamado na aplicação para limpar tela ao clicar no botão c, ele imprimir '0'
   limpar(): void {
     this.numero1 = '0';
     this.numero2 = null;
