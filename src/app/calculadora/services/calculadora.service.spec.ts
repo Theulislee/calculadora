@@ -40,5 +40,12 @@ describe('CalculadoraService', () => {
    inject([CalculadoraService], (service: CalculadoraService) => {
       let multiplicacao = service.calcular(1, 4, CalculadoraService.MULTIPLICACAO);
       expect (multiplicacao).toEqual(4);
+   }));
+
+   //add teste de operacao invalida da calculadora
+   it('deve retornar 0 operacao invalida',
+   inject([CalculadoraService], (service: CalculadoraService) => {
+      let operacaoInvalida = service.calcular(1, 4, '%');
+      expect (operacaoInvalida).toEqual(0);
    }))
 });
