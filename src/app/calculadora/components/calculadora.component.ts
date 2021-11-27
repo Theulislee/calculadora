@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CalculadoraComponent implements OnInit {
 
+  // add atributos privado, que só pode ser acessado nessa classe
   private numero1: string;
   private numero2: string;
   private resultado: number;
