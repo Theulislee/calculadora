@@ -19,6 +19,12 @@ describe('CalculadoraService', () => {
   inject([CalculadoraService], (service: CalculadoraService) => {
      let soma = service.calcular(1, 4, CalculadoraService.SOMA);
      expect (soma).toEqual(5);
-  })
-  )
+  }));
+
+  //add teste de substracao da calculadora
+  it('deve garantir que 1 - 4 = -3',
+  inject([CalculadoraService], (service: CalculadoraService) => {
+     let substracao = service.calcular(1, 4, CalculadoraService.SUBTRACAO);
+     expect (substracao).toEqual(-3);
+  }))
 });
