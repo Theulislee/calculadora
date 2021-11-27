@@ -28,10 +28,17 @@ describe('CalculadoraService', () => {
      expect (substracao).toEqual(-3);
   }));
 
-  //add teste de divisão da calculadora
+  //add teste de divisao da calculadora
   it('deve garantir que 1 / 4 = 0.25',
   inject([CalculadoraService], (service: CalculadoraService) => {
      let divisao = service.calcular(1, 4, CalculadoraService.DIVISAO);
      expect (divisao).toEqual(0.25);
-  }))
+  }));
+
+   //add teste de multiplicacao da calculadora
+   it('deve garantir que 1 * 4 = 4',
+   inject([CalculadoraService], (service: CalculadoraService) => {
+      let multiplicacao = service.calcular(1, 4, CalculadoraService.MULTIPLICACAO);
+      expect (multiplicacao).toEqual(4);
+   }))
 });
