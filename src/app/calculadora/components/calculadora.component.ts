@@ -41,6 +41,10 @@ export class CalculadoraComponent implements OnInit {
    * @param string numero
    * @return void
    */
+  //Metodo add numero, sempre que clicar no numero da minha calculadora preciso associar a 1 ou 2
+  //Se a operacao for null, estou digitando numero 1, caso o contrario se possuo uma operacao estou entrando numero 2
+  //para add o numero 1 e 2 (por ser string) tenho que fazer concatenação de numeros e utiliza o metodo auxiliar que criou concatenar...
+  //passando o numero 1 e o numero que eu recebi
   adicionarNumero(numero: string): void {
     if (this.operacao === null) {
       this.numero1 = this.concatenarNumero(this.numero1, numero);
