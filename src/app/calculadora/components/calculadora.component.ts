@@ -126,6 +126,7 @@ export class CalculadoraComponent implements OnInit {
    *
    * @return string
    */
+  // método display utilizado para exibir na tela no meu display o valor que estou trabalhando.
   get display(): string {
     if (this.resultado !== null) {
       return this.resultado.toString();
