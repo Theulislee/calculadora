@@ -109,6 +109,7 @@ export class CalculadoraComponent implements OnInit {
    *
    * @return void
    */
+  // Método calcular quando pressiono o botão do igual.
   calcular(): void {
     if (this.numero2 === null) {
       return;
