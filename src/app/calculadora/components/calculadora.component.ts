@@ -82,6 +82,7 @@ export class CalculadoraComponent implements OnInit {
    * @param string operacao
    * @return void
    */
+  //Esse metodo utilizado quando menciona a operação de: mais, menos, divisão e multiplicação
   definirOperacao(operacao: string): void {
     // apenas define a operação caso não exista uma
     if (this.operacao === null) {
